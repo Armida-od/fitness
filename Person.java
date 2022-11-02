@@ -69,9 +69,8 @@ public class Person {
     }
 
     public int getAge() {
-        this.age = 2022 - yearBD;
-        return age;
-    }
+	        return 2022 - yearBD;
+	    }
 
     public Person(String name, String surname, int dateBD, int monthBD, int yearBD, String email, String phone, double weight, int pressure, int steps
     ) {
